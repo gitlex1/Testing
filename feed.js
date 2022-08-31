@@ -1,6 +1,6 @@
 
-const rss_url = 'https://www.clarin.com/rss/lo-ultimo/';
-//const rss_url = 'lo-ultimo.xml';
+//const rss_url = 'https://www.clarin.com/rss/lo-ultimo/';
+const rss_url = 'lo-ultimo.xml';
 
 fetch(rss_url)
 	.then(respuesta => respuesta.text())
