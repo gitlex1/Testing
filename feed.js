@@ -1,6 +1,7 @@
 
 //const rss_url = 'https://www.clarin.com/rss/lo-ultimo/';
-const rss_url = 'lo-ultimo.xml';
+//const rss_url = 'lo-ultimo.xml';
+rss_url = 'https://github.com/gitlex1/Testing/blob/gh-pages/lo-ultimo.xml';
 
 fetch(rss_url)
 	.then(respuesta => respuesta.text())
